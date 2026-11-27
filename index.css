@@ -36,7 +36,7 @@ h1, h2, h3 {
 }
 
 .conteudo {
-    size: 120px;
+    max-width: 1200px;
     margin-inline: auto;
     padding-inline: 32px;
 }
@@ -116,7 +116,7 @@ h1, h2, h3 {
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
-    padding: 16px, 28px;
+    padding: 16px 28px;
     border: none;
     font-family: var(--fonte-texto) 17px;
     cursor: pointer;
@@ -143,7 +143,7 @@ h1, h2, h3 {
 
 .card {
     background-color: var(--branco);
-    border: var(--tinta) 3px;
+    border: var(--tinta) 3px solid;
     flex: 1 1 340px;
 }
 
